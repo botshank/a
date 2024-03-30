@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio,Video & Media in HTML</title>
+</head>
+
+<body>
+    <h3>Video</h3>
+    <label for="Video1">Dhoni and Kohli</label>
+    <br>
+    <video width="500" height="500" src="Video1.mp4" controls loop muted poster="img1.png"></video>
+    <!--Some attributes:--->
+    <!--controls is decided by your browser-->
+    <!--autoplay makes the video play as page loads-->
+    <!--loop makes autoplay when the video ends continuously-->
+    <!--muted mutes the video but user can unmute it-->
+    <!--poster means its thumbnail-->
+    <h3>Audio</h3>
+    <audio src="audio1.mp3" controls autoplay muted loop></audio>
+    <!--Similar attributes for audio tag also-->
+    <!--preload attribute gives already fetched audio giving 3 values:1.None(Default), 2.metadata(Req.data fetched), 3.auto(all data fetced)-->
+    <h3>SVG(Scalable Vector Graphics)</h3>
+    <!--svg-->
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <h3>IFrame</h3>
+    <iframe src="https://www.codewithharry.com/tutorial/html-iframes/" width="500" height="500"
+        frameborder="10"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=DCQloFTXryA66gmQ&amp;start=774"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--This code also works for QuickQuiz_02.-->
+</body>
+
+</html>
